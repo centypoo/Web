@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<?php
+	if( $_GET["sacode"])
+	{
+		echo $_GET['sacode'];
+	}
+?>
+<html>
+	<body>
+		<form action="test.php" method="GET">
+			Enter SA Code:<br>
+			<input type="text" name="sacode">
+			<br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
